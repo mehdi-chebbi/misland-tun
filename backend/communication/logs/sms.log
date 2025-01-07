@@ -1,0 +1,50 @@
+[INFO] 2022-11-25 16:39:13,814 | SMS_SENT_CALLBACK: {'message': '0720991307', 'recipients': ['Complaint'], 'sender_id': 'KISIP'}
+[INFO] 2022-11-25 16:41:39,606 | SMS_SENT_CALLBACK: {'message': '0720991307', 'recipients': ['Complaint'], 'sender_id': 'KISIP'}
+[INFO] 2022-11-25 16:45:06,788 | SMS_SENT_CALLBACK: {'message': '0720991307', 'recipients': ['Complaint'], 'sender_id': 'KISIP'}
+[INFO] 2022-11-25 16:47:01,412 | SMS_SENT_CALLBACK: {'message': '0720991307', 'recipients': ['Complaint'], 'sender_id': 'KISIP'}
+[INFO] 2022-11-25 16:53:44,831 | SMS_SENT_CALLBACK: {'message': '0720991307', 'recipients': ['Complaint'], 'sender_id': 'KISIP'}
+[INFO] 2022-11-25 16:56:18,447 | SMS_SENT_CALLBACK: {'message': '0720991307', 'recipients': ['Complaint'], 'sender_id': 'KISIP'}
+[INFO] 2022-11-25 16:58:22,638 | SMS_SENT_CALLBACK: {'message': 'TEST SMS', 'recipients': ['0720991307'], 'sender_id': 'KISIP'}
+[INFO] 2022-11-25 17:05:47,131 | SMS_SENDING: {'message': 'TEST SMS', 'recipients': ['+254720991307'], 'sender_id': 'KISIP'}
+[ERROR] 2022-11-25 17:06:16,941 | SMS Error: SMS_NOT_SENT_ERROR | Type: ------------------------------Exception--------------------------------------------------Traceback (most recent call last):
+
+  File "/home/sftdev/django-apps/grm-backend/src/communication/integrations/africastalking/sms.py", line 91, in send_sms
+    response = self.sms.send(message=message,
+
+  File "/home/sftdev/django-apps/grm-backend/env/lib/python3.8/site-packages/africastalking/SMS.py", line 32, in send
+    return self._make_request(url, 'POST', headers=self._headers, params=None, data=data, callback=callback)
+
+  File "/home/sftdev/django-apps/grm-backend/env/lib/python3.8/site-packages/africastalking/Service.py", line 123, in _make_request
+    raise AfricasTalkingException(res.text)
+
+africastalking.Service.AfricasTalkingException: The supplied authentication is invalid
+ | Args : {'message': 'TEST SMS', 'recipients': ['+254720991307'], 'sender_id': 'KISIP'}
+Traceback (most recent call last):
+  File "/home/sftdev/django-apps/grm-backend/src/communication/integrations/africastalking/sms.py", line 91, in send_sms
+    response = self.sms.send(message=message,
+  File "/home/sftdev/django-apps/grm-backend/env/lib/python3.8/site-packages/africastalking/SMS.py", line 32, in send
+    return self._make_request(url, 'POST', headers=self._headers, params=None, data=data, callback=callback)
+  File "/home/sftdev/django-apps/grm-backend/env/lib/python3.8/site-packages/africastalking/Service.py", line 123, in _make_request
+    raise AfricasTalkingException(res.text)
+africastalking.Service.AfricasTalkingException: The supplied authentication is invalid
+[ERROR] 2022-11-25 17:06:16,941 | SMS Error: SMS_NOT_SENT_ERROR | Type: ------------------------------Exception--------------------------------------------------Traceback (most recent call last):
+
+  File "/home/sftdev/django-apps/grm-backend/src/communication/integrations/africastalking/sms.py", line 91, in send_sms
+    response = self.sms.send(message=message,
+
+  File "/home/sftdev/django-apps/grm-backend/env/lib/python3.8/site-packages/africastalking/SMS.py", line 32, in send
+    return self._make_request(url, 'POST', headers=self._headers, params=None, data=data, callback=callback)
+
+  File "/home/sftdev/django-apps/grm-backend/env/lib/python3.8/site-packages/africastalking/Service.py", line 123, in _make_request
+    raise AfricasTalkingException(res.text)
+
+africastalking.Service.AfricasTalkingException: The supplied authentication is invalid
+ | Args : {'message': 'TEST SMS', 'recipients': ['+254720991307'], 'sender_id': 'KISIP'}
+Traceback (most recent call last):
+  File "/home/sftdev/django-apps/grm-backend/src/communication/integrations/africastalking/sms.py", line 91, in send_sms
+    response = self.sms.send(message=message,
+  File "/home/sftdev/django-apps/grm-backend/env/lib/python3.8/site-packages/africastalking/SMS.py", line 32, in send
+    return self._make_request(url, 'POST', headers=self._headers, params=None, data=data, callback=callback)
+  File "/home/sftdev/django-apps/grm-backend/env/lib/python3.8/site-packages/africastalking/Service.py", line 123, in _make_request
+    raise AfricasTalkingException(res.text)
+africastalking.Service.AfricasTalkingException: The supplied authentication is invalid

@@ -1,0 +1,75 @@
+{
+    "urls": {
+        "task_results_url": {
+            "localhost:9000": "http://misland.oss-online.org:5000/#/geoservice/results/",
+            "localhost:9001": "http://misland.oss-online.org:5000/#/geoservice/results/",
+            "localhost:8000": "http://localhost:8000/#/dashboard/results/",
+            "default": "http://localhost:8000/#/dashboard/results/",
+            "default_prod": "http://misland.oss-online.org/#/dashboard/results/",
+            "default_uat": "http://194.163.176.189/#/dashboard/results/",
+            "41.227.30.141": "http://misland.oss-online.org/#/dashboard/results/",
+            "misland.oss-online.org": "http://misland.oss-online.org/#/dashboard/results/",
+            "misland.oss-online.org:5000": "http://misland.oss-online.org:5000/#/geoservice/results/",
+            "194.163.176.189:1337": "http://194.163.176.189/#/dashboard/results/",
+            "misland.3ways.co.ke": "http://misland.3ways.co.ke/#/results/",
+            "misland4africa.oss-online.org": "http://misland4africa.oss-online.org/#/results/"
+        },
+        "account_activation_url": {
+            "localhost:9000": "http://misland.oss-online.org:5000/#/geoservice/activate/",
+            "localhost:9001": "http://misland.oss-online.org:5000/#/geoservice/activate/",
+            "localhost:8000": "http://localhost:8000/#/dashboard/activate/",
+            "default": "http://localhost:8000/#/dashboard/activate/",
+            "default_prod": "http://misland.oss-online.org/#/dashboard/activate/",
+            "default_uat": "http://194.163.176.189/#/dashboard/activate/",
+            "41.227.30.141": "http://misland.oss-online.org/#/dashboard/activate/",
+            "misland.oss-online.org": "http://misland.oss-online.org/#/dashboard/activate/",
+            "misland.oss-online.org:5000": "http://misland.oss-online.org:5000/#/geoservice/activate/",
+            "194.163.176.189:1337": "http://194.163.176.189/#/dashboard/activate/",
+            "misland.3ways.co.ke": "http://misland.3ways.co.ke/#/activate/",
+            "misland4africa.oss-online.org": "http://misland4africa.oss-online.org/#/activate/"
+        },
+        "change_password_url": {
+            "localhost:9000": "http://misland.oss-online.org:5000/#/geoservice/forgotpassword/",
+            "localhost:9001": "http://misland.oss-online.org:5000/#/geoservice/forgotpassword/",
+            "localhost:8000": "http://localhost:8000/#/forgotpassword/",
+            "default": "http://localhost:8000/#/forgotpassword/",
+            "default_prod": "http://misland.oss-online.org/#/dashboard/forgotpassword/",
+            "dafault_uat": "http://194.163.176.189/#/dashboard/forgotpassword/",
+            "41.227.30.141": "http://misland.oss-online.org/#/dashboard/forgotpassword/",
+            "misland.oss-online.org": "http://misland.oss-online.org/#/dashboard/forgotpassword/",
+            "misland.oss-online.org:5000": "http://misland.oss-online.org:5000/#/geoservice/forgotpassword/",
+            "194.163.176.189:1337": "http://194.163.176.189/#/dashboard/forgotpassword/",
+            "misland.3ways.co.ke": "http://misland.3ways.co.ke/#/forgotpassword/",
+            "misland4africa.oss-online.org": "http://misland4africa.oss-online.org/#/forgotpassword/"
+        },
+        "backend_url": {
+            "localhost:9000": "http://misland.oss-online.org:5000",
+            "localhost:9001": "http://misland.oss-online.org:5000",
+            "localhost:8000": "http://localhost:8000/",
+            "default": "http://localhost:8000/",
+            "default_prod": "http://misland.oss-online.org",
+            "default_uat": "http://194.163.176.189",
+            "41.227.30.141": "http://misland.oss-online.org",
+            "misland.oss-online.org": "http://misland.oss-online.org",
+            "misland.oss-online.org:5000": "http://misland.oss-online.org:5000",
+            "194.163.176.189:1337": "http://194.163.176.189",
+            "misland.3ways.co.ke": "http://misland.oss-online.org/",
+            "misland4africa.oss-online.org": "http://misland.oss-online.org/"
+        },
+        "backend_port": {
+            "localhost:9000": 1337,
+            "localhost:9001": 1337,
+            "0.0.0.0:8000": 8000,
+            "default": 8000,
+            "default_prod": 1337,
+            "default_uat": 1337,
+            "localhost:8000": 8000,
+            "41.227.30.141": 1337,
+            "misland.oss-online.org": 1337,
+            "misland.oss-online.org:5000": 1337,
+            "194.163.176.189:1337": 1337,
+            "misland.3ways.co.ke": 1337,
+            "misland4africa.oss-online.org": 1337
+        }
+    }
+}

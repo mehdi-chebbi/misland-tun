@@ -1,0 +1,14 @@
+[ERROR] 2022-11-25 16:58:05,040 | SMS Error
+Traceback (most recent call last):
+  File "/home/sftdev/django-apps/grm-backend/src/communication/integrations/africastalking/sms.py", line 91, in send_sms
+    response = self.sms.send(message=message,
+  File "/home/sftdev/django-apps/grm-backend/env/lib/python3.8/site-packages/africastalking/SMS.py", line 16, in send
+    raise ValueError('Invalid phone number: ' + phone)
+ValueError: Invalid phone number: Complaint
+[ERROR] 2022-11-25 16:59:25,375 | SMS Error
+Traceback (most recent call last):
+  File "/home/sftdev/django-apps/grm-backend/src/communication/integrations/africastalking/sms.py", line 91, in send_sms
+    response = self.sms.send(message=message,
+  File "/home/sftdev/django-apps/grm-backend/env/lib/python3.8/site-packages/africastalking/SMS.py", line 16, in send
+    raise ValueError('Invalid phone number: ' + phone)
+ValueError: Invalid phone number: 0720991307

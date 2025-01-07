@@ -1,0 +1,136 @@
+// app global css in SCSS form
+
+.no-link-decoration {
+  text-decoration: none;
+
+  @media (min-width: $breakpoint-md-min) {}
+
+  @media (max-width: $breakpoint-sm-max) {}
+}
+
+.page-width {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $breakpoint-md-min) {}
+
+  @media (max-width: $breakpoint-sm-max) {}
+}
+
+.indicator-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 124.02%;
+  color: #838c48;
+}
+
+// form container  component
+.indicator-form-container {
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+
+  @media (min-width: $breakpoint-sm-min) {
+    top: -50px;
+    left: 360px;
+    min-height: 100px;
+    position: absolute;
+  }
+
+  @media (max-width: $breakpoint-xs-max) {}
+}
+
+.indicator-form-pointer-right {
+  @media (min-width: $breakpoint-sm-min) {
+    position: absolute;
+    top: 15px;
+    left: -20px;
+    border-top: 10px solid transparent;
+    border-right: 20px solid white;
+    border-bottom: 10px solid transparent;
+  }
+
+  @media (max-width: $breakpoint-xs-max) {
+    display: none;
+  }
+}
+
+.indicator-selction-form-btn {
+  background: #838c48;
+  border-radius: 4px;
+  color: #f8f9f4;
+  width: 70px;
+}
+
+// indicator selection popup style
+.computation-year-selection {
+  max-height: 200px;
+  text-align: center;
+}
+
+// chart title
+.chart-title {
+  max-width: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  color: #4a5219;
+}
+
+.misland_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+.title-text-color {
+  color: #404715;
+}
+
+// set max width for year selection options
+.year-selection-popup {
+  max-height: 300px;
+}
+
+
+//hide body scrollbar
+
+body::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+}
+
+body {
+  scrollbar-width: none;
+}
+
+.dashboard-more-options {
+  width: 250px;
+  padding: 10px;
+  border-radius: 13px;
+}
+
+.dashboard-product-selections {
+  min-width: 200px;
+  padding: 10px;
+}
+//
+.dashboard-form-menu {
+   position: absolute;
+   background-color: white;
+   right:0px;
+   top: 50px;
+   border: $primary solid 1px;
+   z-index: 1;
+   min-width: 250px;
+   border-radius: 5px;
+}

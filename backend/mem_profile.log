@@ -1,0 +1,50 @@
+2024-11-12 20:53:49,804 - Filename: /home/ahmed/OSS/misland_africa/backend/ldms/analysis/analysis_router.py
+
+
+2024-11-12 20:53:49,805 - Line #    Mem usage    Increment  Occurrences   Line Contents
+
+2024-11-12 20:53:49,805 -    415    301.9 MiB    301.9 MiB           1   @profile #(stream=mem_logs if not settings.USE_MEMORY_PROFILER_LOG_FILE else None) 
+
+2024-11-12 20:53:49,805 -    466    310.0 MiB      8.1 MiB           1   		res = obj.calculate_lulc()
+
+2024-11-12 20:53:49,805 -    478    310.1 MiB      0.1 MiB           1   		return Response(res)
+
+2024-11-12 20:54:37,734 - Filename: /home/ahmed/OSS/misland_africa/backend/ldms/analysis/analysis_router.py
+
+
+2024-11-12 20:54:37,734 - Line #    Mem usage    Increment  Occurrences   Line Contents
+
+2024-11-12 20:54:37,735 -    415    333.4 MiB    333.4 MiB           1   @profile #(stream=mem_logs if not settings.USE_MEMORY_PROFILER_LOG_FILE else None) 
+
+2024-11-12 20:54:37,735 -    466    333.6 MiB      0.1 MiB           1   		res = obj.calculate_lulc()
+
+2024-11-12 20:55:22,911 - Filename: /home/ahmed/OSS/misland_africa/backend/ldms/analysis/analysis_router.py
+
+
+2024-11-12 20:55:22,911 - Line #    Mem usage    Increment  Occurrences   Line Contents
+
+2024-11-12 20:55:22,911 -    415    333.7 MiB    333.7 MiB           1   @profile #(stream=mem_logs if not settings.USE_MEMORY_PROFILER_LOG_FILE else None) 
+
+2024-11-12 20:55:22,912 -    466    333.8 MiB      0.1 MiB           1   		res = obj.calculate_lulc()
+
+2024-11-12 20:56:14,835 - Filename: /home/ahmed/OSS/misland_africa/backend/ldms/analysis/analysis_router.py
+
+
+2024-11-12 20:56:14,835 - Line #    Mem usage    Increment  Occurrences   Line Contents
+
+2024-11-12 20:56:14,835 -    415    355.3 MiB    355.3 MiB           1   @profile #(stream=mem_logs if not settings.USE_MEMORY_PROFILER_LOG_FILE else None) 
+
+2024-11-12 21:04:41,554 - Filename: /home/ahmed/OSS/misland_africa/backend/ldms/analysis/analysis_router.py
+
+
+2024-11-12 21:04:41,554 - Line #    Mem usage    Increment  Occurrences   Line Contents
+
+2024-11-12 21:04:41,554 -    415    352.0 MiB    352.0 MiB           1   @profile #(stream=mem_logs if not settings.USE_MEMORY_PROFILER_LOG_FILE else None) 
+
+2024-11-12 21:05:54,859 - Filename: /home/ahmed/OSS/misland_africa/backend/ldms/analysis/analysis_router.py
+
+
+2024-11-12 21:05:54,860 - Line #    Mem usage    Increment  Occurrences   Line Contents
+
+2024-11-12 21:05:54,860 -    415    352.0 MiB    352.0 MiB           1   @profile #(stream=mem_logs if not settings.USE_MEMORY_PROFILER_LOG_FILE else None) 
+

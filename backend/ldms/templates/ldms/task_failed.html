@@ -1,0 +1,8 @@
+{% autoescape off %}
+Dear {{ user.first_name }} {{ user.last_name }},
+
+Your task {{ task_name }} could not be completed because of the following reason: {{ error }}. Kindly try again.
+
+Do not reply to this email.
+
+{% endautoescape %}

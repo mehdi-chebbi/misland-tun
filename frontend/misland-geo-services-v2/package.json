@@ -1,0 +1,57 @@
+{
+  "name": "misland-geo-services-v2",
+  "version": "0.0.1",
+  "description": "misland geoservices version 2",
+  "productName": "misland-geo-services-v2",
+  "author": "christopher bartonjo",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@geoman-io/leaflet-geoman-free": "^2.13.0",
+    "@quasar/extras": "^1.0.0",
+    "@turf/turf": "^7.1.0",
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "axios": "^0.21.1",
+    "buffer": "^6.0.3",
+    "chart.js": "^3.9.1",
+    "compression": "^1.7.4",
+    "connect-history-api-fallback": "^2.0.0",
+    "date-fns": "^2.29.3",
+    "dom-to-image": "^2.6.0",
+    "express": "^4.18.2",
+    "express-static-gzip": "^2.1.7",
+    "georaster": "^1.5.6",
+    "georaster-layer-for-leaflet": "^3.10.0",
+    "html2canvas": "^1.4.1",
+    "jszip": "^3.10.1",
+    "leaflet": "^1.7.1",
+    "leaflet-easybutton": "^2.4.0",
+    "leaflet-easyprint": "^2.1.9",
+    "leaflet-image": "^0.4.0",
+    "leaflet.bigimage": "^1.0.1",
+    "leaflet.browser.print": "^2.0.2",
+    "pinia": "^2.0.11",
+    "quasar": "^2.6.0",
+    "serve-static": "^1.15.0",
+    "tiff.js": "^1.0.0",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.3.1",
+    "@intlify/vue-i18n-loader": "^4.2.0",
+    "@quasar/app-vite": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.14"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

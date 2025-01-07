@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ee-mislandafrica",
+  "private_key_id": "91e590908bc27c5baa0f9d46f87bef5282ff6ea7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3te2xbpKFPeaN\n86hGqo+/vZPj06GtdDT1ILiaUZhaW4qNmk4dFHqeHZuLRc6v+aZVA+P9PXsfVTvY\nB6QOlAsiDzZYYRcAqwdM1cnxitIzxa8OwHTpvNA1z3Bs4i9SpG4Gi107pqWocO0z\nM8KlYuQ/u7XeN08vu5/lblgIHcP+CAp2JJpdEQq4UiNIO9hV+hm6DfP/uAbfPhr+\njjCbk7yz5xo4KnlXL41czTwpBm67hnmU6ghwO/kNU2MPokWartglf1sFTXAvKim5\nCOks4Zr31Fctjiek/wgGyba4SVbDZ2FWmYNti1GN7r9SG5rw9HOVTamHblEUJB2b\nDfxzLvshAgMBAAECggEAA+F4N1y7BCJfXdrKkHmXEUls18Mh9x3NZkCOHcEWVeb5\nTuNLqKIaMqpfSDUjOATu+PyczZNFp/m0iqxN+yUwn1l7v/4HDsjOHexQjdrCn3za\nz+s2sl7+dVCKkwZBJ9QDjf2rgcXUBIekKcYmDmPVJ1fXWu3HWAkKMujJO8dTMKkg\n04eRBR0+Kwo9uiHz+Tgm8VH0kCH4ABUCW1LKMwdkF2NvqlQKdxOfYuHvVjW6nJCz\n451EOP/cK6OV1C5i/xKeC3AAKIgueA2YC4ebWChOmlWbYrIKziV9tcplgoU7sVw7\nZe6osPJ6atfhgVfOQrpl0yUInXfhD5sEONxkj7fWdQKBgQDcwJpzCMZkwnotXcg+\nSV6g+9WjhaVt2nx4ifWze6kZA75/mLQlANpSX8awrvS4cXFLOdDtP6Bby/9JWzXh\noid1/IwylkfLsOEHC5yUgLAaeIV3qPCa8N3IgOHqWcXIS8Tj3+vkJOa2A82a6qph\n5XT3g8+Exy75maSGt2Y7PhtO5QKBgQDVCzi4VMhG5G6eBvzZ3ANRZFrC1Kzikx/E\nko5AqPfqaa9xkanOESCk7bXtaLSvt3qpb3yut/dQ+k31OieJzxY1ejJF/6vCETRs\nFNcBBs4D+hGMY4tZyUNoLuYAYGka4L4ClnUrWl0SAssToLlWCiDIYmN7rSAKFC37\nKrvo0gL7jQKBgFTC74rz95mAwwDgXZ7s9RTDHcjn7Bk+J0TxVBJSjR85vM+phqIe\nrbWraNM2mminxmSoEnzGTYBx19gG2a2FYbl/+yUBZxfjFsRpxPmQYA4J8NV9XMVh\nbwcp1ZTyW2sJDNSiiiTTtnJ1C2FMcZedT0gqqGfHQ1Y7lFzV1r8wnbOxAoGBAJ5p\ncKyHxkAIfUQeGAd6tDDiOSaj80WqdjW5b/MecPGp0h3VXPjv/WEFrIAymiAKgzfX\nwVM9UbWx2SPeMSYkiPQMv7MS8Ekmd99iA5ks0SVd3YyRPD3wDKI8NSPUjHLC6CaO\nb+Njls7cqtoWaZlTgJrfpe+BhNBZvvMDDKSK/FLFAoGBAMKYP9ddotMQ6vetQGXG\nP6LNmTW87P3uNXWEY9qZQsRw4f+47Z3vUauoFEdAOt2vuSoefCcZQVG+HvZnS/WJ\nZFJxB5wUmdaOv0ZWfwEkKrw8y5Tl7t32isY50zhPQnaY1/8NgSpMOIeELBnbB8Vz\naUmrg8wQKQXmQgI6w0Cv+/v7\n-----END PRIVATE KEY-----\n",
+  "client_email": "misland-africa@ee-mislandafrica.iam.gserviceaccount.com",
+  "client_id": "106309242554136720146",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/misland-africa%40ee-mislandafrica.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

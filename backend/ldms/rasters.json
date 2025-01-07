@@ -1,0 +1,30 @@
+{
+    "help": {
+        "_comment_": "This is only a sample file showing how the contents should be structured",
+        "defaults": "This key contains values that are repeated against rasters. If a specific raster has a separate value from the default, specify that value at the raster object level",
+        "raster_category": "Must be one of ['NDVI', 'LULC', 'SOC', 'Rainfall', 'Aspect', 'Forest Loss', 'SAVI', 'MSAVI', 'Evapotranspiration', 'Ecological Units', 'Soil Slope', 'Soil Group', 'Soil Drainage', 'Soil Parent Material', 'Soil Texture', 'Soil Rock Fragments', 'Population Density', 'Land Use Density', 'Fire Risk', 'Erosion Protection', 'Drought Resistance', 'Plant Cover', 'Aridity Index', 'Tree Cover Loss', 'Forest Activity Map', 'Vegetation Cover', 'Soil Roughness', 'Soil Crust', 'Erodible Fraction', 'Climatic Erosivity', 'Rainfall Erosivity', 'Soil Erodibility', 'Slope Steepness', 'Cover Management', 'Conservation Practices', 'Geomorphology', 'Coastal Slope', 'Sea Level Change', 'Shoreline Erosion/Accretion', 'Tide Range', 'Wave Height']",
+        "raster_source": "Must be one of ['LULC', 'Modis', 'Landsat 7', 'Landsat 8', 'Hansen', 'Sentinel 2']",
+        "admin_level": "The admnistration level associated with this raster. Valid values are 0, -1, -2 for Country, Regional and Continental respectively",
+        "admin_zero_id": "Only set if the raster is for specific country.  The value must be numeric. Go to Django Admin -> Admin Level Zero to retrieve the ID for defined/existing countries. The value of admin_level should be set as 0",
+        "regional_admin_id": "Only set if the raster is for specific regional level boundary e.g OSS States. The value must be numeric. Go to Django Admin -> Regional Admin Level to retrieve the ID for defined/existing regions. The value of admin_level should be set as -1",
+        "continent_admin_id": "Only set if the raster is for specific continent. For now we only have Africa. The value must be numeric. Go to Django Admin -> Continental Admin to retrieve the ID for defined continents. The value of admin_level should be set as -2",
+        "raster_file": "You must enter a fully qualified name e.g /home/nyaga/datasets/ndvi.tiff. For Docker setup, ensure the datasets are copied into the shared volumes else they will not be available within the container"
+    },
+    "defaults": {
+        "resolution": 30
+    },
+    "rasters": [
+        {
+            "name": "Africa_Landcover_2018",
+            "raster_year": 2001,
+            "raster_category": "LULC",
+            "raster_source": "LULC",
+            "file_path": "/home/sftdev/Downloads/Africa_Landcover_2018.tif",
+            "resolution": 30,
+            "admin_level": -2,
+            "admin_zero_id": null,
+            "regional_admin_id": null,
+            "continent_admin_id": 1
+        }
+    ] 
+}
