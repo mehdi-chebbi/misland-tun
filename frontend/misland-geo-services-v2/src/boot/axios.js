@@ -6,7 +6,7 @@ let baseURL;
 if (process.env.DEV) {
   // baseURL = 'http://41.227.30.139:1337/' //oss
  // baseURL = 'http://41.227.30.136:1337/' //oss
-  baseURL = 'http://192.168.127.133:8000/'
+  baseURL = 'http://192.168.2.190:8000/'
   // baseURL = 'http://misland.oss-online.org:1337/' //oss
   // baseURL = 'http://194.163.176.189:1337/' //contabo
 }

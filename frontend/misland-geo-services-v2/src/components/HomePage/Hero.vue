@@ -47,7 +47,7 @@ export default {
   padding: 20px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('/png/hero_background.png');
+  background-image: url('/png/tunisia.jpg');
 
   @media (max-width: $breakpoint-sm-max) {}
 }

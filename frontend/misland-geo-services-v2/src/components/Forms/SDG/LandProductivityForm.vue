@@ -214,6 +214,7 @@ export default {
         const uri = `/api/${this.indicator.value}/`; // build the request url
         const results = await requestAnalysis({ uri, payload, caller: 'lulc' });// request analysis
         this.handleAnalysisResults(results);
+        console.log("aaaaaa",results)
       } catch (error) {
         if (process.env.DEV) console.log("error requesting analysis ", error);
       }

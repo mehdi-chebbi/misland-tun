@@ -220,8 +220,6 @@ export default {
         // layers: [darkMap, osm, mapbox, mapboxSatellite]
         layers: [mapboxSatellite]
       });
-      L.control.scale().addTo(this.map);
-
       this.setupGeomanDraw();
     },
     // setup geoman draw
@@ -333,7 +331,6 @@ export default {
     async processLayerResult(results) {
       try {
         this.tiff_url = results.rasterfile;
-        console.log("aaaaaaassssssss",this.tiff_url)
         const tiles_url = results?.tiles?.url;
         if (this.current_raster) this.map.removeLayer(this.current_raster); // remove current layer if present
         if (tiles_url) {
@@ -455,43 +452,37 @@ export default {
     },
     //download tiff
     async downloadTiffFile() {
-  try {
-    if (!this.current_raster) return;
-    Loading.show({
-      spinner: QSpinnerGears,
-      message: "Downloading Tiff ...",
-    });
-    const meta = this.current_raster?.options?.meta;
-    console.log("download tiff file dashboard === ", meta);
-    let raster_url = meta?.rasterfile;
-    if (raster_url) {
-      raster_url = raster_url.replace(":1337", ":8000");  // Replacing port 1337 with 8000
-    }
-    console.log("New raster_url", raster_url);
-    const start_year = meta?.base;
-    const end_year = meta?.target;
-    let response = await this.$api.get(raster_url, {
-      responseType: "arraybuffer",
-    });
-    let blob = new Blob([response.data]);
-    let url = window.URL.createObjectURL(blob);
-    let a = document.createElement("a");
-    a.href = url;
-    a.download = `${meta?.indicator?.label} ${this.getYear({ start_year, end_year })}.tiff`;
-    document.body.appendChild(a); // we need to append the element to the dom -> otherwise it will not work in firefox
-    a.click();
-    a.remove(); // afterwards we remove the element again
-    Loading.hide();
-  } catch (error) {
-    if (process.env.DEV) console.log("Error in download tiff", error);
-    negative({
-      message: 'Could not download tiff file',
-      position: 'center'
-    });
-  }
-}
-
-,
+      try {
+        if (!this.current_raster) return;
+        Loading.show({
+          spinner: QSpinnerGears,
+          message: "Downloading  Tiff ...",
+        });
+        const meta = this.current_raster?.options?.meta
+        console.log("download tiff file dashboard === ", meta);
+        const raster_url = meta?.rasterfile;
+        const start_year = meta?.base;
+        const end_year = meta?.target;
+        let response = await this.$api.get(raster_url, {
+          responseType: "arraybuffer",
+        });
+        let blob = new Blob([response.data]);
+        let url = window.URL.createObjectURL(blob);
+        let a = document.createElement("a");
+        a.href = url;
+        a.download = `${meta?.indicator?.label} ${this.getYear({ start_year, end_year })}.tiff`;
+        document.body.appendChild(a); // we need to append the element to the dom -> otherwise it will not work in firefox
+        a.click();
+        a.remove(); //afterwards we remove the element again
+        Loading.hide();
+      } catch (error) {
+        if (process.env.DEV) console.log("Error in download tiff", error);
+        negative({
+          message: 'Could not download tiff file',
+          position: 'center'
+        })
+      }
+    },
     //
     showSelectedLayer(index) {
       if (!this.map.hasLayer(this.raster_layers[index])) this.raster_layers[index].addTo(this.map);

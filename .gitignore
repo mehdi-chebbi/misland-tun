@@ -1,1 +1,41 @@
+# Google Cloud Service Account Keys
+*.json
+
+# GitHub Personal Access Token (PAT)
+*.token
+*.key
+
+# Google Cloud configuration files
+google-cloud-config.json
+gcloud-credentials.json
+
+# Environment files (commonly contain sensitive data like API keys)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+
 .env

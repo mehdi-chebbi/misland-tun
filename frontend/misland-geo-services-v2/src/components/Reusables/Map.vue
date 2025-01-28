@@ -478,7 +478,7 @@ this.map.fitBounds(this.current_geojson.getBounds(), {
         this.base_geojson = L.geoJSON(geojsonData, {
     color: "#D3D3D3",  // Grey for the border (stroke)
     fillColor: "#FFFFFF",  // White for the inside (fill), covering the area completely
-    fillOpacity: 1,  // Makes the inside fully opaque (not transparent)
+    fillOpacity: 0.3,  // Makes the inside fully opaque (not transparent)
     opacity: 0.8,  // Optional: to control the transparency of the border
 });
 

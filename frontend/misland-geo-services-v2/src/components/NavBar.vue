@@ -1,18 +1,24 @@
 <template>
   <q-header>
     <q-toolbar class="tool-bar bg-white q-py-sm">
-      <div class="flex items-center">
-        <div class="flex items-center" style="padding-right:46px">
-          <img src="~assets/svg/misland_logo.svg" alt="">
-          <div class="misland_title text-primary"> {{ $t("logo.title") }}</div>
-        </div>
-        <div class="q-mx-md gt-xs">
-          <img src="~assets/svg/oss_logo.svg" style="width: 85px">
-        </div>
-        <div class="q-mx-md gt-xs">
-          <img src="~assets/svg/gmes_logo.svg" style="width: 121.8px;height: 34.08px;">
-        </div>
-      </div>
+      <div class="flex flex-col items-center">
+  <div class="flex items-center" style="padding-left: 10px;">
+    <img src="~assets/svg/misland_logo.svg" alt="">
+    <div class="misland_title text-primary">
+      {{ $t("logo.title") }} TUNISIA
+    </div>
+  </div>
+
+  <div class="flex flex-col gt-xs q-mt-md">
+    <div class="q-mx-md">
+      <img src="~assets/svg/oss_logo.svg" style="width: 85px">
+    </div>
+    <div class="q-mx-md q-mt-sm">
+      <img src="~assets/svg/gmes_logo.svg" style="width: 121.8px; height: 34.08px;">
+    </div>
+  </div>
+</div>
+
       <q-space />
       <div class="flex items-center">
 
@@ -46,7 +52,7 @@
                 class="text-capitalize"> {{ getAuthUserDetails?.first_name }}</span></router-link>
           </div>
         </div>
-        
+
       </div>
       <div class="lt-1280">
         <q-btn flat dense round color="black" aria-label="Menu" @click="toggleLeftDrawer">

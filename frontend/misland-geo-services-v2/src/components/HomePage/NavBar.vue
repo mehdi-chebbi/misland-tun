@@ -1,18 +1,26 @@
 <template>
   <q-header>
     <q-toolbar class="tool-bar bg-black text-white q-py-sm">
-      <div class="flex items-center">
-        <div class="flex items-center" style="padding-right:46px">
-          <img src="~assets/svg/misland_logo.svg" alt="">
-          <div class="misland_title gt-xs">{{ $t("logo.title") }}</div>
-        </div>
-        <div class="q-mx-md gt-xs">
-          <img src="~assets/svg/oss_logo.svg" style="width:85px">
-        </div>
-        <div class="q-mx-md gt-xs">
-          <img src="~assets/svg/gmes_logo.svg" style="width: 121.8px;height: 34.08px;">
-        </div>
-      </div>
+      <div class="flex flex-col items-center">
+  <!-- First logo and title side by side -->
+  <div class="flex items-center" style="padding-bottom: 16px;">
+    <img src="~assets/svg/misland_logo.svg" alt="">
+    <div class="misland_title gt-xs" style="padding-left: 10px;">
+      {{ $t("logo.title") }} TUNISIA
+    </div>
+  </div>
+
+  <!-- Stacked logos below -->
+  <div class="flex flex-col items-center">
+    <div class="q-mx-md gt-xs" style="padding-bottom: 10px;">
+      <img src="~assets/svg/oss_logo.svg" style="width: 85px;">
+    </div>
+    <div class="q-mx-md gt-xs">
+      <img src="~assets/svg/gmes_logo.svg" style="width: 121.8px; height: 34.08px;">
+    </div>
+  </div>
+</div>
+
       <q-space />
       <div class="flex items-center">
         <router-link to="/" class="q-mx-md  gt-1280 tool-bar-link text-white">{{ $t("nav_bar.home") }}</router-link>
